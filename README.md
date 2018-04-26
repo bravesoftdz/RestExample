@@ -1,5 +1,5 @@
 # RestExample
-Rest on java (get, post)
+Rest on java (get, post) to http://restcountries.eu/rest/v1/name/belarus
 
 A simple example of requests (GET, POST) to the API.
 Receiving data in JSON format.
