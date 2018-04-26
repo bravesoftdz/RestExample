@@ -67,7 +67,7 @@ public class GetExample {
 			listParam.put("border_" + borders, borders);
 		}
 
-		System.out.println(listParam);
+		System.out.println(jsonResponse);
 	}
 
 }
