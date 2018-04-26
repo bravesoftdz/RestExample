@@ -64,7 +64,7 @@ public class GetExample {
 		int borderCount = jsonResponse.getJSONObject(0).getJSONArray("borders").length();
 		for (int i = 0; i < borderCount; i++) {
 			String borders = jsonResponse.getJSONObject(0).getJSONArray("borders").getString(i);
-			listParam.put("border_" + (i + 1), borders);
+			listParam.put("border_" + borders, borders);
 		}
 
 		System.out.println(listParam);
